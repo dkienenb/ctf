@@ -1,0 +1,15 @@
+{
+	"type": "crafting_shaped",
+	"group": "banner",
+	"pattern": [
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:light_gray_wool"
+		}
+	},
+	"result": {
+		"item": "minecraft:light_gray_wool"
+	}
+}

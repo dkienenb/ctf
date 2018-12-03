@@ -1,0 +1,14 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"d"
+	],
+	"key": {
+		"d": {
+			"item": "minecraft:lime_concrete_powder"
+		}
+	},
+	"result": {
+		"item": "minecraft:lime_concrete_powder"
+	}
+}

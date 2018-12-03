@@ -1,0 +1,6 @@
+{
+	"values": [
+		"ctf:core_mechanics/world_spawn",
+		"ctf:core_mechanics/start_on_player_confirmation"
+	]
+}

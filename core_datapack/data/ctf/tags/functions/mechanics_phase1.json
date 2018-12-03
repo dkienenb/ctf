@@ -1,0 +1,17 @@
+{
+	"values": [
+		"ctf:core_mechanics/points",
+		"ctf:core_mechanics/flag_breakers",
+		"ctf:core_mechanics/players_at_game_start",
+		"ctf:core_mechanics/returning_flags",
+		"ctf:mechanics/kill_all_flag_items",
+		"ctf:mechanics/bossbars",
+		"ctf:mechanics/lives",
+		"ctf:mechanics/spawn_points",
+		"ctf:mechanics/spread_points",
+		"ctf:mechanics/spread_point_tnt_protection",
+		"ctf:mechanics/stop_flags_in_portal",
+		"ctf:mechanics/world_border",
+		"ctf:mechanics/pigs"
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_boots"
+		},
+		"title": {
+			"translate": "acs.advancement.return_enemy_flag.title"
+		},
+		"description": {
+			"translate": "acs.advancement.return_enemy_flag.description"
+		},
+		"show_toast": true,
+		"hidden": false
+	},
+	"parent": "ctf:root",
+	"criteria": {
+		"return_flag": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

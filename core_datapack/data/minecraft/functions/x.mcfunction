@@ -1,0 +1,1 @@
+execute as @a run function ctf:players/teleport_caller_to_spread_point

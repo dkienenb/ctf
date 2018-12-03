@@ -1,0 +1,15 @@
+{
+	"type": "crafting_shaped",
+	"group": "banner",
+	"pattern": [
+		"#"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:orange_wool"
+		}
+	},
+	"result": {
+		"item": "minecraft:orange_wool"
+	}
+}

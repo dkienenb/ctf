@@ -1,0 +1,4 @@
+gamerule logAdminCommands false
+gamerule commandBlockOutput false
+gamerule announceAdvancements false
+gamerule reducedDebugInfo true

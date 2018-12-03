@@ -1,0 +1,11 @@
+{
+	"values": [
+		"ctf:mechanics/team_setup",
+		"ctf:core_mechanics/core_objectives",
+		"ctf:core_mechanics/new_players",
+		"ctf:core_mechanics/start_on_player_confirmation",
+		"ctf:core_mechanics/z_phase_specific_mechanics",
+		"ctf:mechanics/gamemodes",
+		"ctf:mechanics/scoreboard_display"
+	]
+}
