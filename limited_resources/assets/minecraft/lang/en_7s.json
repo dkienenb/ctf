@@ -1,0 +1,52 @@
+{
+	"acs.name": "Magic Deck Swabber",
+
+	"acs.advancement.root.title": "Raiding Goals",
+	"acs.advancement.root.description": "Stuff yer ship with booty!",
+	"acs.advancement.return_enemy_flag.title": "Grab da flag",
+	"acs.advancement.return_enemy_flag.description": "Shiver me timbers!",
+
+	"acs.bossbar.book": "To get a new cannon manual, type §l\"/trigger powerup set -1\"§r",
+	"acs.bossbar.flag": "%s flag plundered!§r",
+
+	"acs.message.clickme": "§n§1If ye ship be seaworthy, click me§r",
+	"acs.message.flagbroken": "%s flag§r plundered by %s",
+	"acs.message.flagcapture": "%s flag§r grabbed by %s",
+	"acs.message.morelives": "%s§r has gained %s ships each!",
+	"acs.message.newplayer": "Hello! Welcome to Grab the flag!",
+	"acs.message.possessed": "Yer be me captain, oh Magic Deck Swabber!",
+	"acs.message.respawnkit": "§aSelect new ship:§r",
+
+	"acs.objective.blueFlagsBroken": "booleanBrokeBlueFlag",
+	"acs.objective.redFlagsBroken": "booleanBrokeRedFlag",
+	"acs.objective.confirmed": "Player confirmation status",
+	"acs.objective.lives": "Ships",
+	"acs.objective.points": "Flags grabbed",
+	"acs.objective.health": "Hearts",
+	"acs.objective.powerup": "Selected Cannon",
+	"acs.objective.respawnKit": "New Ship",
+	"acs.objective.constants": "Constants",
+	"acs.objective.global": "Global Variables",
+	"acs.objective.tmp": "tmp",
+
+	"acs.title.flagbroken": "%s flag§r",
+	"acs.subtitle.flagbroken": "broken by %s",
+
+	"acs.respawnkit.1": "§1§nHeavy Cruiser§r",
+	"acs.respawnkit.2": "§1§nLight Cruiser§r",
+	"acs.respawnkit.3": "§1§nCargo Ship§r",
+	"acs.respawnkit.4": "§1§nScribe's Ship§r",
+	"acs.respawnkit.5": "§1§nCarpender's Ship§r",
+	"acs.respawnkit.6": "§1§nMess Hall§r",
+
+	"block.minecraft.diamond_block": "Lime Cement (Beacon Power)",
+	"block.minecraft.lime_concrete": "Chunk o' Diamond (Not Beacon Power)",
+	"block.minecraft.lime_concrete_powder": "Diamond Dusts",
+
+	"enchantment.level.19": "XIX",
+	"enchantment.level.20": "XX",
+	"enchantment.level.100": "C",
+
+	"team.team1": "§9Blue crew",
+	"team.team2": "§cRed crew"
+}
