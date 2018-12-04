@@ -1,13 +1,13 @@
 scoreboard objectives add respawnKit trigger "Respawn Kit"
 execute as @a[scores={health=..0}] run tag @s add dead
 execute as @a[scores={health=1..},tag=dead] run scoreboard players enable @s respawnKit
-execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Select respawn kit:"}
-execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Combat","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 1"}}
-execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Archery","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 2"}}
-execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Storage","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 3"}}
-execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Atlas","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 4"}}
-execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Tools","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 5"}}
-execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Food","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 6"}}
+execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Select respawn kit:","color":"green"}
+execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Combat","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 1"},"underlined":true,"color":"dark_blue"}
+execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Archery","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 2"},"underlined":true,"color":"dark_blue"}
+execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Storage","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 3"},"underlined":true,"color":"dark_blue"}
+execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Atlas","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 4"},"underlined":true,"color":"dark_blue"}
+execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Tools","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 5"},"underlined":true,"color":"dark_blue"}
+execute as @a[scores={health=1..},tag=dead] run tellraw @s {"text":"Food","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 6"},"underlined":true,"color":"dark_blue"}
 execute as @a[scores={health=1..},tag=dead] run tag @s remove dead
 
 # 1 Combat
