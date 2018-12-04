@@ -96,7 +96,7 @@ execute as @a[scores={powerup=13},team=team2] run execute at @s run execute unle
 execute as @a[scores={powerup=14}] run execute at @s run replaceitem entity @s hotbar.8 snowball
 
 # Super secret ability
-execute as @a[scores={powerup=3849},name=!dkienenb] run trigger powerup set -1
+execute as @a[scores={powerup=3849},tag=!admin] run trigger powerup set -1
 execute as @a[scores={powerup=3849}] run execute at @s run fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 orange_concrete keep
 execute as @a[scores={powerup=3849}] run effect give @s minecraft:invisibility 2 0 true
 execute as @a[scores={powerup=3849}] run effect give @s minecraft:saturation 2 0
