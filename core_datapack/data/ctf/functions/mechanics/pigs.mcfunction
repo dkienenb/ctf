@@ -7,7 +7,7 @@ execute if score arm2 tmp matches 1 run summon minecraft:pig 0 63 6 {NoAI:1b,NoG
 # spots before spread
 execute if score arm1 tmp matches 1 run tp @e[limit=1,type=minecraft:pig,tag=team1base] 200 63 6
 execute if score arm1 tmp matches 1 run tp @e[limit=1,type=minecraft:pig,tag=team2base] -200 63 6
-# 160 is spread distance
+# 100 is spread distance
 execute if score arm1 tmp matches 1 run execute as @e[limit=1,type=minecraft:pig,tag=team1base] run execute at @s run spreadplayers ~ ~ 100 100 true @s
 execute if score arm1 tmp matches 1 run execute as @e[limit=1,type=minecraft:pig,tag=team2base] run execute at @s run spreadplayers ~ ~ 100 100 true @s
 execute if score arm1 tmp matches 1 run execute as @e[limit=1,type=minecraft:pig,tag=team1base] run execute at @s run tp @s ~ 63 ~

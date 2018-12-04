@@ -1,8 +1,5 @@
 scoreboard objectives add lives dummy {"translate":"acs.objective.lives"}
 scoreboard objectives add deaths deathCount {"translate":"acs.objective.deaths"}
-execute if score sidebarDisplay global matches 1 run scoreboard objectives setdisplay sidebar lives
-execute if score sidebarDisplay global matches 1 run scoreboard objectives setdisplay sidebar.team.blue lives
-execute if score sidebarDisplay global matches 1 run scoreboard objectives setdisplay sidebar.team.red lives
 scoreboard players set maxLives constants 10
 
 scoreboard players set @a lives 0
