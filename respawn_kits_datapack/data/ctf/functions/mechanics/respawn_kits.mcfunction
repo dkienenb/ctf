@@ -1,7 +1,7 @@
-scoreboard objectives add respawnKit trigger "Respawn Kit"
+scoreboard objectives add respawnKit trigger {"translate":"acs.objective.respawnKit"}
 execute as @a[scores={health=..0}] run tag @s add dead
 execute as @a[scores={health=1..},tag=dead] run scoreboard players enable @s respawnKit
-execute as @a[scores={health=1..},tag=dead] run tellraw @s {"translate":"acs.respawnkitmessage"}
+execute as @a[scores={health=1..},tag=dead] run tellraw @s {"translate":"acs.message.respawnkit"}
 execute as @a[scores={health=1..},tag=dead] run tellraw @s {"translate":"acs.respawnkit.1","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 1"}}
 execute as @a[scores={health=1..},tag=dead] run tellraw @s {"translate":"acs.respawnkit.2","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 2"}}
 execute as @a[scores={health=1..},tag=dead] run tellraw @s {"translate":"acs.respawnkit.3","clickEvent":{"action":"run_command","value":"/trigger respawnKit set 3"}}
