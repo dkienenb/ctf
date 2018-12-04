@@ -6,6 +6,10 @@
 		"ctf:core_mechanics/start_on_player_confirmation",
 		"ctf:core_mechanics/z_phase_specific_mechanics",
 		"ctf:mechanics/gamemodes",
-		"ctf:mechanics/scoreboard_display"
+		"ctf:mechanics/scoreboard_display",
+		"ctf:mechanics/gamerules/no_entity_cramming",
+		"ctf:mechanics/gamerules/no_mob_griefing",
+		"ctf:mechanics/gamerules/no_rain",
+		"ctf:mechanics/gamerules/prevent_chat_spam"
 	]
 }
